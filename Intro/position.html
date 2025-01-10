@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>position Practice</title>
+  </head>
+  <body style="
+  height:3000px;
+  padding-top:60px;
+  padding-left:80px;" >
+    <div style="
+      background-color: black;
+      color: white;
+      position: fixed;
+      top:0;
+      left:0;
+      right:0;
+      height:50px;
+      z-index:100;"
+    >header</div>
+    
+    <div style="background-color: green;
+    color:white;
+    position:fixed;
+    top:50px;
+    bottom:0;
+    left:0;
+    width:60px
+    "
+    >sidebar
+
+    <div
+    style="
+    background-color: red;
+    color:white;
+    position: absolute;
+    right:0px;
+    top:0px;
+    ">X</div>
+
+    </div>
+
+    <div
+    style="
+    background-color: red;
+    color:white;
+    position: absolute;
+    right:100px;
+    top:100px;
+    z-index:1;
+    ">absolute</div>
+
+    <div style="background-color:lightblue;
+      height: 200px;
+      width:200px;
+      position: static;">div1</div>
+    <div style="background-color:lightpink;
+    height: 200px;
+    width:200px;
+    position:relative;
+    ">div2
+    <div
+    style="
+    background-color: black;
+    color:white;
+    position: absolute;
+    right:10px;
+    bottom:10px;
+    ">5:00</div></div>
+
+
+
+
+
+
+  </body>
+</html>
+<!--If we want an element to be resized with the page we use top,right,left,right or else we will use height(if we want it to be static)
+
+position:
+fixed- elements are placed in browser window --elemets doesnot move when we scroll
+absolute- elements are placed on the page --elemets does move when we scroll
+
+z-index: elements with more z-index will appear front of the page compared to elements with lower z-index
+-->

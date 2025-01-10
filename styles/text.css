@@ -1,0 +1,63 @@
+p{
+  font-family: roboto;
+  margin-top:0; /* as paragraph by default have 14px as margin top and bottom*/
+  margin-bottom:0;
+}
+
+.video_title{
+  
+  font-weight:bold;
+  font-size:18px;
+  width:280px;   /*if we want to send the text to next line just fix the size of the text*/
+  line-height:24px; /* for spacing between the lines*/
+  margin-bottom:5px;
+}
+
+.stats{
+  
+  font-size: 14px;
+  color:rgb(96,96,96);
+  margin-bottom:25px;
+}
+
+.author{
+
+  font-size: 14px;
+  color:rgb(96,96,96);
+  margin-bottom: 20px;
+}
+
+.des{
+  font-size: 14px;
+  color:rgb(96,96,96);
+  width:280px;
+  line-height:22px;
+  margin-bottom: 100px;
+  
+}
+
+.apple{
+  margin-bottom: 50px;
+  font-size: 14px;
+  background-color: rgb(227,65,64);
+  color: white;
+  text-align: center;
+  padding-top:18px;
+  padding-bottom:18px;
+
+}
+.shop{
+  cursor: pointer;
+}
+.shop:hover{
+  text-decoration: underline;
+}
+
+
+.example{
+  color:red;
+  margin-left: 12px;
+}
+.example:hover{
+  text-decoration: underline;
+}
